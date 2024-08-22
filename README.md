@@ -52,7 +52,7 @@ Fable minimal templates with the most recent versions of `npm` and `dotnet` libr
 * install templates
 
 ```code
-dotnet new -i Semuserable.Fable.Templates::*
+dotnet new install Semuserable.Fable.Templates::*
 ```
 
 * use templates
@@ -66,7 +66,7 @@ dotnet new fable-react-elmish
 * uninstall templates
 
 ```code
-dotnet new -u Semuserable.Fable.Templates
+dotnet new uninstall Semuserable.Fable.Templates
 ```
 
 # How to upgrade
@@ -74,13 +74,13 @@ dotnet new -u Semuserable.Fable.Templates
 * uninstall existing templates
 
 ```code
-dotnet new -u Semuserable.Fable.Templates
+dotnet new uninstall Semuserable.Fable.Templates
 ```
 
 * install new templates
 
 ```code
-dotnet new -i Semuserable.Fable.Templates::*
+dotnet new install Semuserable.Fable.Templates::*
 ```
 
 # How to create
